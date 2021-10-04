@@ -4,7 +4,7 @@ import setuptools
 import io
 
 def readme():
-    with io.open('README.rst', encoding='utf8', errors='ignore') as f:
+    with io.open('README.md', encoding='utf8', errors='ignore') as f:
         return f.read()
 
 setup(name='pybengali',
